@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asma Yaqoob</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .cover-image {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-top: -75px;
+      border: 5px solid white;
+    }
+
+    .bio {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    /* Custom Button Styles */
+    .social-buttons a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    /* Button Background Colors */
+    .btn-facebook {
+      background-color: #1777f2; /* Facebook */
+    }
+
+    .btn-linkedin {
+      background-color: #0077b7; /* LinkedIn */
+    }
+
+    .btn-fiverr {
+      background-color: #22bb33; /* Fiverr */
+    }
+
+    .btn-instagram {
+      background-color: #e1306c; /* Instagram */
+    }
+
+    .btn-pinterest {
+      background-color: #bd081c; /* Pinterest */
+    }
+
+    .btn-youtube {
+      background-color: #ff0000; /* YouTube */
+    }
+
+    .btn-behance {
+      background-color: #0057ff; /* Behance */
+    }
+
+    .btn-tiktok {
+      background-color: #010101; /* TikTok */
+    }
+
+    .btn-twitter {
+      background-color: #1da1f2; /* Twitter */
+    }
+
+    .btn-google {
+      background-color: #25d366; /* Gmail */
+    }
+
+    .social-buttons img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+
+    /* Stacking buttons vertically on mobile */
+    @media (max-width: 576px) {
+      .social-buttons .col-12 {
+        margin-bottom: 10px;
+      }
+    }
+
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #f8f9fa;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Cover Image -->
+    <div class="cover">
+      <img src="stones-6801099_1920.jpg" alt="Cover Image" class="cover-image">
+    </div>
+
+    <!-- Profile Picture -->
+    <div class="text-center">
+      <img src="dp.PNG" alt="Profile Picture" class="profile-pic">
+    </div>
+
+    <!-- Name and Bio -->
+    <div class="bio">
+      <h2>Asma Yaqoob</h2>
+      <p>A Passionate Graphics Designer & Social Media Expert</p>
+    </div>
+
+    <!-- Social Media Buttons -->
+    <div class="row social-buttons">
+      <div class="col-12 col-sm-4">
+        <a id="facebookPageBtn" class="btn btn-facebook btn-block">
+          <img src="meta log.png" alt="Facebook Icon"> Facebook Page
+        </a>
+      </div>
+      <div class="col-12 col-sm-4">
+        <a id="facebookIdBtn" class="btn btn-facebook btn-block">
+          <img src="fb.png" alt="Facebook Icon"> Facebook Id
+        </a>
+      </div>
+      <div class="col-12 col-sm-4">
+        <a id="linkedinBtn" class="btn btn-linkedin btn-block">
+          <img src="linkedin.png" alt="LinkedIn Icon"> LinkedIn
+        </a>
+      </div>
+      <div class="col-12 col-sm-4">
+        <a id="fiverrBtn" class="btn btn-fiverr btn-block">
+          <img src="fiverr.png" alt="Fiverr Icon"> Fiverr
+        </a>
+      </div>
+      <div class="col-12 col-sm-4">
+        <a id="instagramBtn" class="btn btn-instagram btn-block">
+          <img src="insta.png" alt="Instagram Icon"> Instagram
+        </a>
+      </div>
+      <div class="col-12 col-sm-4">
+        <a id="pinterestBtn" class="btn btn-pinterest btn-block">
+          <img src="pin.png" alt="Pinterest Icon"> Pinterest
+        </a>
+      </div>
+      <div class="col-12 col-sm-4">
+        <a id="youtubeBtn" class="btn btn-youtube btn-block">
+          <img src="yt.png" alt="YouTube Icon"> YouTube
+        </a>
+      </div>
+      <div class="col-12 col-sm-4">
+        <a id="behanceBtn" class="btn btn-behance btn-block">
+          <img src="behance.png" alt="Behance Icon"> Behance
+        </a>
+      </div>
+      <div class="col-12 col-sm-4">
+        <a id="tiktokBtn" class="btn btn-tiktok btn-block">
+          <img src="tiktok.png" alt="TikTok Icon"> TikTok
+        </a>
+      </div>
+      <div class="col-12 col-sm-4">
+        <a id="twitterBtn" class="btn btn-twitter btn-block">
+          <img src="twitter.png" alt="Twitter Icon"> Twitter
+        </a>
+      </div>
+      <div class="col-12 col-sm-4">
+        <a id="gmailBtn" class="btn btn-google btn-block">
+          <img src="mail.png" alt="Gmail Icon"> Gmail
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      &copy; 2024 Asma Yaqoob. All rights reserved.
+    </div>
+  </div>
+
+  <script>
+    // Store all social media links in variables
+    const facebookPageLink = "https://www.facebook.com/profile.php?id=61561170972605&mibextid=ZbWKwL";
+    const facebookIdLink = "https://www.facebook.com/profile.php?id=61559049447393&mibextid=ZbWKwL";
+    const linkedinLink = "https://www.linkedin.com/in/asma-yaqoob-%F0%9F%8C%9F-%F0%9F%92%96-323161255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
+    const fiverrLink = "https://www.fiverr.com/asmayaqoob372?source=gig_page";
+    const instagramLink = "https://www.instagram.com/passion.graphic?igsh=bHNrcjJ2aXowYmg1";
+    const pinterestLink = "https://pin.it/3NflUUIku";
+    const youtubeLink = "https://www.youtube.com/@AsmaYaqoob86";
+    const behanceLink = "https://www.behance.net/asmayaqoob1";
+    const tiktokLink = "https://www.tiktok.com/@asmayaqoobuk";
+    const twitterLink = "https://www.twitter.com";
+    const gmailLink = "https://www.google.com";
+
+    // Assign links to buttons with target="_blank"
+    document.getElementById("facebookPageBtn").href = facebookPageLink;
+    document.getElementById("facebookIdBtn").href = facebookIdLink;
+    document.getElementById("linkedinBtn").href = linkedinLink;
+    document.getElementById("fiverrBtn").href = fiverrLink;
+    document.getElementById("instagramBtn").href = instagramLink;
+    document.getElementById("pinterestBtn").href = pinterestLink;
+    document.getElementById("youtubeBtn").href = youtubeLink;
+    document.getElementById("behanceBtn").href = behanceLink;
+    document.getElementById("tiktokBtn").href = tiktokLink;
+    document.getElementById("twitterBtn").href = twitterLink;
+    document.getElementById("gmailBtn").href = gmailLink;
+
+    // Set target="_blank" to open in new tab
+    const socialButtons = document.querySelectorAll(".social-buttons a");
+    socialButtons.forEach(function (button) {
+      button.setAttribute("target", "_blank");
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
